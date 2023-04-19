@@ -6,11 +6,11 @@
 /*   By: fheaton- <fheaton-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/23 15:53:26 by fheaton-          #+#    #+#             */
-/*   Updated: 2023/01/23 16:04:28 by fheaton-         ###   ########.fr       */
+/*   Updated: 2023/04/19 16:00:00 by fheaton-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ClapTrap.hpp"
+#include "Claptrap.hpp"
 
 int main()
 {

@@ -6,11 +6,19 @@
 /*   By: fheaton- <fheaton-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/23 14:52:43 by fheaton-          #+#    #+#             */
-/*   Updated: 2023/01/23 16:03:08 by fheaton-         ###   ########.fr       */
+/*   Updated: 2023/04/19 16:45:52 by fheaton-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Claptrap.hpp"
+
+Claptrap::Claptrap(){
+	this->_name = "Nameless";
+	this->_hp = 10;
+	this->_ep = 10;
+	this->_dmg = 0;
+	std::cout << "Default Claptrap." << std::endl;
+}
 
 Claptrap::Claptrap(std::string name){
 	this->_name = name;

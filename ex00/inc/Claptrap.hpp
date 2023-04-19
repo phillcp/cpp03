@@ -6,7 +6,7 @@
 /*   By: fheaton- <fheaton-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/23 14:40:31 by fheaton-          #+#    #+#             */
-/*   Updated: 2023/01/23 15:53:19 by fheaton-         ###   ########.fr       */
+/*   Updated: 2023/04/19 16:00:15 by fheaton-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,7 @@ class Claptrap{
 		unsigned int _hp;
 		unsigned int _ep;
 		unsigned int _dmg;
+		Claptrap();
 	public:
 		Claptrap(std::string name);
 		~Claptrap();

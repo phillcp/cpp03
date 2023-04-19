@@ -6,7 +6,7 @@
 /*   By: fheaton- <fheaton-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/23 14:52:43 by fheaton-          #+#    #+#             */
-/*   Updated: 2023/01/26 13:00:38 by fheaton-         ###   ########.fr       */
+/*   Updated: 2023/04/19 16:46:12 by fheaton-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,17 +14,17 @@
 
 Claptrap::Claptrap(){
 	this->_name = "Nameless";
-	this->_hp = 100;
-	this->_ep = 50;
-	this->_dmg = 20;
+	this->_hp = 10;
+	this->_ep = 10;
+	this->_dmg = 0;
 	std::cout << "Default Claptrap." << std::endl;
 }
 
 Claptrap::Claptrap(std::string name){
 	this->_name = name;
-	this->_hp = 100;
-	this->_ep = 50;
-	this->_dmg = 20;
+	this->_hp = 10;
+	this->_ep = 10;
+	this->_dmg = 0;
 	std::cout << std::endl << "Constructor called for claptrap named: " << this->_name << std::endl;
 }
 
